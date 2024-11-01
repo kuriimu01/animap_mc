@@ -47,6 +47,7 @@ def main():
     map_id = 0
     z_coord = 0
 
+    # Put your last frame id here
     while map_id <= 1406:
         
         
