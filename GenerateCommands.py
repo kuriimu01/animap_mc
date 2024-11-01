@@ -15,4 +15,5 @@ def generate_minecraft_commands(file_name, total_maps):
     print(f"Commands generated and saved to {file_name}")
 
 if __name__ == "__main__":
+    # Second argument is your last frame id
     generate_minecraft_commands("minecraft_commands.txt", 1406)
