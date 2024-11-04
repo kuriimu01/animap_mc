@@ -1,7 +1,7 @@
 
 --- 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About The Project (outdated readme)
 
 
 This tool is designed to automate the placement of map arts in Minecraft, specifically for creating stunning zoetrope effects. Leveraging Minecraft's powerful command system, this tool streamlines the process of arranging map art in a precise grid format, ensuring perfect alignment and timing for an immersive visual experience.
