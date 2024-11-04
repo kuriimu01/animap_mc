@@ -1,0 +1,8 @@
+[DEFAULT]
+video_input_path=./input/input_video.mp4
+fps_output_path=./output/fps_output_video.mp4
+timed_output_path=./output/timed_output_video.mp4
+output_path=./output/output_video.mp4
+image_path=./output/image.png
+frames_path=./frames/
+tick_path=./animap/data/animap/functions/tick.mcfunction
