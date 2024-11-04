@@ -33,9 +33,9 @@ Alternatively, the **automated command generation method** produces a text file 
    git clone https://github.com/github_username/animap_mc.git
    ```
 
-2. Install [PyAutoGui](https://pyautogui.readthedocs.io/en/latest/install.html "PyAutoGui")
+2. Install requirements.txt
    ```sh
-    pip install pyautogui
+    pip install -r requirements.txt
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -45,32 +45,6 @@ Alternatively, the **automated command generation method** produces a text file 
 <!-- USAGE EXAMPLES -->
 ## Usage Examples
 
-**Manual placement method**
-
-This method is **relatively slow** compared to the **automated command generation method**. Since commands are sent individually through a script using PyAutoGUI, it takes time for each command to execute. Users must **wait for the game to process each command** before moving on to the next one.
-
-A significant advantage of this method is that it requires **no datapack installation**. Users can run the Python script directly on their machine **without modifying Minecraft's game files**. This makes it easier for those who prefer a straightforward approach without delving into the complexities of datapacks.
-
---- 
-#### Steps to Use the Manual Placement Method
-
-1. **Launch Minecraft** and load the world where you want to place your map arts.
-2. **Ensure that cheats are enabled** in your world settings. You can do this by going to the **World Settings** menu and toggling the cheats option.
-3. Put your converted frames **(map_id.data)** into **data** folder of your world
-   ```sh
-    .minecraft\saves\Your World\data
-   ```
-3. **Locate and execute the main.py file** using your Python environment. Ensure that you have Python installed on your system along with **PyAutoGUI**.
-   ```sh
-    python main.py
-   ```
-4. **Allow the script to run uninterrupted** until it finishes executing all commands. You can monitor the progress in the console output, which will indicate when each cycle is completed.
-
-Be patient, as the script will take some time to process all commands based on the number of map arts you are placing. **Do not interact with the game until the script has finished** to avoid any command interruptions.
-
---- 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 **Automated placement method**
 
