@@ -13,11 +13,11 @@ def GenerateCommands(tick_path, total_frames):
             z_coord = map_id
 
             file.write(f'setblock ~ ~-1 ~{z_coord} minecraft:packed_ice\n')
-            file.write(f'setblock ~1 ~-1 ~{z_coord} minecraft:spruce_stairs[facing=east]\n')
-            file.write(f'setblock ~-1 ~-1 ~{z_coord} minecraft:spruce_stairs[facing=west]\n')
-            file.write(f'setblock ~-2 ~ ~{z_coord} minecraft:white_wool\n')
-            file.write(f'setblock ~2 ~ ~{z_coord} minecraft:white_wool\n')
-            file.write(f'setblock ~2 ~1 ~{z_coord} minecraft:white_wool\n')
+            file.write(f'setblock ~1 ~-1 ~{z_coord} minecraft:cherry_stairs[facing=east]\n')
+            file.write(f'setblock ~-1 ~-1 ~{z_coord} minecraft:cherry_stairs[facing=west]\n')
+            file.write(f'setblock ~-2 ~ ~{z_coord} minecraft:magenta_wool\n')
+            file.write(f'setblock ~2 ~ ~{z_coord} minecraft:magenta_wool\n')
+            file.write(f'setblock ~2 ~1 ~{z_coord} minecraft:magenta_wool\n')
             file.write(f'summon minecraft:item_frame ~1 ~1 ~{z_coord} {{Facing:4, Item:{{id:"minecraft:filled_map",Count:1b,tag:{{map:{map_id}}}}}}}\n')
 
     print(f"Commands generated and saved into {tick_path}. Now you can load it with /function animap:tick")
