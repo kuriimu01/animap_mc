@@ -86,7 +86,7 @@ While this method is faster, it does require a datapack installation to function
 
 Telegram - [@kuriimu01](https://t.me/kuriimu01 "@kuriimu01")
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/kuriimu01/animap_mc](https://github.com/kuriimu01/animap_mc)
 
 
 
